@@ -57,7 +57,9 @@ class About extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
-        Text("About data ............................"),
+        Text("About data: This resource is a test profile page on a temporary github web servers or something else..."),
+        Text("For example: i'm a dart language developer in a gymdev group etc."),
+        Text("Россия, г.Братск, Космонавтов бул, 9, Гимназия №1"),
       ],
     );
   }
@@ -91,7 +93,10 @@ class Contacts extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
-        Text("Contacts ............................"),
+        Text("Contacts and feedback: "),
+        Text("https://github.com/Stepan80206",),
+        Text("https://github.com/orgs/gymnasiumdev/"),
+        Text("E-mail: ******@mail.ru"),
       ],
     );
   }
@@ -105,16 +110,25 @@ class Avatar extends StatelessWidget{
       children: <Widget>[
         Row(),
         CircleAvatar(
-          backgroundColor: Colors.lime,
+          backgroundColor: Colors.lime[400],
           backgroundImage: NetworkImage(""),
-          radius: 110,
+          radius: 120,
+          child: Icon(Icons.image, size: 100, color: Colors.blue,),
         ),
         Text("  "),
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: Text(
-            "data",
-            style: TextStyle(fontSize: 30,fontWeight:FontWeight.bold,),),
+            "Stepan80206",
+            style: TextStyle(fontSize: 30,fontWeight:FontWeight.bold,),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Text(
+            "Мельник Степан",
+            style: TextStyle(fontSize: 20,),
+            ),
         ),
         Row(),
       ],
