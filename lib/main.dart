@@ -57,8 +57,8 @@ class About extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
-        Text("About data: This resource is a test profile page on a temporary github web servers or something else..."),
-        Text("For example: i'm a dart language developer in a gymdev group etc."),
+        Text("About data:"),
+        Text(""),
         Text("Россия, г.Братск, Космонавтов бул, 9, Гимназия №1"),
       ],
     );
